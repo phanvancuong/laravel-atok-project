@@ -1,0 +1,271 @@
+.carousel{
+  height: 200px;
+}
+.main-products-double a:hover, .main-products-vertical .main-products-vertical-secound a:hover, .main-products-vertical-inverted-secound a:hover {
+  text-decoration: none;
+}
+
+/*Banner 6x1 - main site*/
+
+.main-products-double, .main-products-double-first-first, .main-products-double-first-secound {
+  display: inline-flex;
+}
+
+.main-products-double-first {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.main-products-double-first, .main-products-double-first-secound, .main-products-double-first-first, .main-products-double-first-secound {
+  flex: 1;
+}
+
+.main-products-double {
+  justify-content: center;
+  margin: auto;
+}
+
+.main-products-double-inverted .main-products-double-first {
+  margin: 0 16px !important;
+}
+
+.main-products-double .main-products-double-first {
+  margin: 0 16px !important;
+}
+
+.main-products-double .main-products-double-first a + a {
+  margin-left: 15px;
+}
+
+.main-products-product-cont {
+  margin-bottom: 10px;
+  overflow: hidden !important;
+}
+
+.main-products-product-cont img {
+  transition: all 300ms ease-in-out;
+}
+
+.main-products-product-cont img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.main-products-text, .main-products-vertical-text {
+  background: #fff;
+  text-align: center;
+  padding: 0;
+  margin-top: 7px;
+}
+
+.main-products-name-cnt {
+  display: table;
+  width: 100%;
+  margin: 2px 0;
+}
+
+.main-products-name, .main-products-vertical-name {
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 9px;
+
+  display: table-cell;
+  height: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 14px;
+}
+
+@media (max-width: 991px) {
+  .main-products-name, .main-products-vertical-name {
+    letter-spacing: 0;
+  }
+}
+
+.main-products-hr, .main-products-vertical-hr {
+  margin: 0;
+}
+
+.main-products-price, .main-products-vertical-price {
+  text-transform: uppercase;
+  color: #65c178;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 9px;
+}
+
+.main-products-double .main-products-double-secound {
+  margin-left: 25px;
+}
+
+@media (min-width: 767px) {
+  .main-products-double-secound {
+    width: 400px;
+  }
+
+  .main-products-double-inter-1 {
+    margin-top: 317px;
+  }
+
+  .main-products-double-secound-btn, .main-products-vertical-first-btn {
+    min-width: 150px;
+    height: 44px;
+    font-size: 24px;
+  }
+
+  .main-products-vertical-first-btn {
+    top: 78px;
+  }
+
+  @media (max-width: 991px) {
+    .main-products-double-inverted .main-products-double-secound {
+      margin-right: 16px !important;
+    }
+  }
+  @media (min-width: 992px) {
+    .main-products-double-secound {
+      width: 425px;
+    }
+
+    .main-products-double-inter-1 {
+      margin-top: 338px;
+    }
+
+    .main-products-vertical-first-btn {
+      top: 102px;
+    }
+
+    @media (min-width: 1200px) {
+      .main-products-double-secound {
+        width: 505px;
+      }
+
+      .main-products-double-inter-1 {
+        margin-top: 400px;
+      }
+
+      .main-products-double-secound-btn, .main-products-vertical-first-btn {
+        min-width: 170px;
+        height: 55px;
+        font-size: 30px;
+      }
+
+      .main-products-vertical-first-btn {
+        top: 130px;
+      }
+    }
+  }
+}
+
+.main-products-double-inter-1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.main-products-double-secound-btn {
+  border: 1px solid #fff;
+  background: none;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  /*font-size: 30px;*/
+}
+
+.main-products-double-secound-btn:hover, .main-products-vertical-first-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/*Banner 6x1 - odwrócony - main site*/
+
+.main-products-double-inverted .main-products-double-first {
+  margin: 0;
+  order: 2;
+}
+
+.main-products-double-inverted .main-products-double-secound {
+  margin-right: 25px;
+  margin-left: 0 !important;
+  order: 1;
+}
+
+.main-products-vertical-secound {
+  display: inline-flex;
+}
+
+.main-products-vertical-secound a {
+  flex: 1;
+}
+
+.main-products-vertical-first {
+  margin-bottom: 25px;
+}
+
+.main-products-vertical-secound a + a {
+  margin-left: 15px;
+}
+
+.main-products-vertical-inter-1 {
+  position: absolute;
+  left: 50%;
+}
+
+.main-products-vertical-first-btn {
+  position: relative;
+  left: -50%;
+  border: 1px solid #fff;
+  background: none;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+/*Banner vertical - reverse*/
+
+.main-products-vertical-inverted {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-products-vertical-inverted-first {
+  order: 2;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.main-products-vertical-inverted-secound {
+  order: 1;
+}
+
+.main-products-double-secound, .main-products-double-first{
+  position: relative;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  background: #fff;
+}
+span.previous-price {
+  margin-right: 6px;
+  color: #adadad;
+  text-decoration: line-through;
+}
+
+section {
+  padding-top: 32px;
+}

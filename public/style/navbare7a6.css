@@ -1,0 +1,52 @@
+/*Menu*/
+
+
+
+.logo-new {
+  position: absolute;
+  left: 50%;
+  margin-left: -89px !important;
+  margin-top: 12px !important;
+  padding: 0 !important;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .hr-nav-small-md{
+    display: none !important;
+  }
+  .nav-shop-new {
+    padding-top: 0 !important;
+  }
+
+  /*Przewijane menu*/
+
+  .nav-shop-new {
+    margin: 27px 30px 0 30px !important;
+  }
+
+  .nav-shop-new > li + li {
+    margin-left: -4px !important;
+  }
+
+  
+  .nav-shop-new li {
+    display: inline-block !important;
+  }
+}
+
+.nav-menu-section-shop {
+  padding-bottom: 0 !important;
+  background-color: #000;
+}
+
+nav.navbar-fixed-top {
+  z-index: 11;
+  background-color: #fff;
+  width: 100%;
+}
+
+.nav-shop-new {
+  z-index: 10;
+}
+

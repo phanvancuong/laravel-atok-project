@@ -1,0 +1,72 @@
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 3px;
+  font-weight: 900;
+  font-size: 19px;
+  position: relative;
+}
+
+h2 span {
+  background: #fff;
+  padding: 0 25px;
+  position: relative;
+  z-index: 1;
+}
+
+h2:before {
+  background: #ddd;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+h2:before {
+  left: 0;
+}
+
+@media (max-width: 400px){
+    h2:before{
+        display: none;
+    }
+    h2 span{
+        padding: 0;
+    }
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-size: 12px;
+  position: relative;
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 0 20px 0;
+}
+
+
+.instagram:hover{
+  background: #cd486b;
+}
+#instagram-feed li h4 {
+  border: none;
+  padding: 0px;
+}
+
+#instagram-feed li h4 a {
+  color: #000 !important;
+}
+
+#instagram-feed li a:hover img {
+  opacity: 0.8;
+}
+
+#instagram-feed li img {
+  width: 100%;
+}

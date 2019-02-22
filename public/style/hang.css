@@ -1,0 +1,295 @@
+@media screen and (min-width: 767px){
+  ::-webkit-scrollbar{
+    width: 9px;
+    background-color: #fff;
+    border-left: 1px solid rgba(0,0,0,.1);
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #ccc;
+  }
+}
+
+#navbar-cart-count{
+  color: #000;
+}
+
+@media all and (max-width: 769px) {
+  .free-delivery {
+    padding: 10px 0 0 0 !important;
+  }
+
+  .free-delivery__amount {
+    font-size: 12px !important;
+  }
+
+  .free-delivery__amount--green {
+    font-size: 16px !important;
+  }
+
+  .free-delivery__courier {
+    padding: 14px 8px 10px 8px !important;
+  }
+
+  .free-delivery__courier img {
+    max-height: 30px !important;
+  }
+
+  .free-delivery__header {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .order-info {
+    float: right;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .order-info {
+    margin: 0 15px;
+  }
+}
+
+.shopping-cart-total-sd {
+  width: 96%;
+  margin: 0 auto 30px;
+}
+
+.table-summary{
+  margin-top:25px;
+  border:1px solid #dedede;
+  border-radius:4px;
+  padding:10px;
+}
+
+.table-summary .payment-logo img, .table-summary  .table-logo img{
+  width: 40%;
+  height: auto;
+}
+
+@media (max-width: 640px){
+  .table-summary .payment-logo img, .table-summary  .table-logo img{
+    width: 60%;
+  }
+  @media (max-width: 460px){
+    .table-summary .payment-logo img, .table-summary  .table-logo img{
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .table-summary .payment-logo img, .table-summary  .table-logo img{
+    width: auto;
+    max-height: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .checkout-summary{
+    text-align: center;
+  }
+  .table-summary .table-price {
+    font-size: 70%;
+  }
+  .table-summary .table-info {
+    font-size: 50%;
+  }
+  .table-summary .payment-logotypes{
+    font-size: 70%;
+  }
+  .pager-checkout-summary li a, .pager-checkout-summary input{
+    font-size: 70% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  /*SMARTPHONE*/
+  .shrinkwrap {
+    padding-top: 0px !important;
+  }
+}
+
+@media (min-width: 1141px) {
+
+  .row .banner-pad {
+    margin: auto 5px;
+    padding: auto 5px;
+  }
+
+  .banner-pad {
+    width: 32%;
+    height: auto;
+  }
+
+}
+
+/*footer*/
+
+
+.stripe-icons > div{
+  text-align: center;
+  padding: 14px 0 61px 0 !important;
+  background: #e3e3e3;
+}
+
+.stripe-icons > div+div{
+  border-left: 1px solid rgba(0,0,0,0.2);
+}
+
+.stripe-icons-cnt{
+  position: absolute;
+  left: -50%;
+  width: 100%;
+    top: 26px;
+}
+
+.stripe-icons-inner{
+  position: relative;
+  left: 50%;
+  display: inline-flex;
+}
+
+.stripe-icons-inner img{
+  max-height: 25px;
+  padding-right: 20px;
+}
+
+.stripe-icons-cnt p{
+  padding-bottom: 0;
+  margin: auto 0;
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #272727;
+}
+
+@media (max-width: 1400px){
+    .stripe-icons-cnt{
+        top: 28px;
+    }
+  .stripe-icons-cnt p{
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .stripe-icons-inner img{
+    max-height: 22px;
+    padding-right: 15px;
+  }
+  @media (max-width: 1100px){
+      .stripe-icons-cnt{
+          top: 30px;
+      }
+    .stripe-icons-cnt p{
+      font-size: 9px;
+      letter-spacing: 0;
+    }
+    .stripe-icons-inner img{
+      max-height: 16px;
+      padding-right: 10px;
+    }
+  }
+  @media (max-width: 991px){
+    .footer-logo{
+      margin: 0 auto;
+    }
+  }
+}
+
+footer .cnt{
+  padding: 22px 45px 0 45px;
+}
+
+.footer-contact{
+  display: inline-flex;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+  .footer-contact{
+    width: 24%;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1090px){
+  .footer-contact li a{
+    letter-spacing: 1px;
+    font-size: 11px;
+  }
+
+}
+
+.footer-logo{
+  padding-bottom: 6px;
+  width: 80%;
+}
+
+.tee-alert-form h5 {
+  padding-top: 6px;
+}
+
+.tee-alert-form p{
+  font-family: 'Lato', sans-serif;
+}
+
+footer .navbar-form{
+  padding: 8px 0 0 0;
+}
+
+footer .cnt div div:last-child ul li:first-child{
+  padding: 0 0 12px 0;
+}
+
+footer .cnt div div:last-child ul li img{
+  margin-bottom: 16px;
+}
+
+.signup-btn .btn {
+  background: #4e4e4e;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+  width: 100%;
+  display: block;
+  border: 1px solid #4e4e4e;
+  text-align: center;
+  font-weight: bold;
+  padding: 13px;
+}
+
+.signup-btn .btn:hover {
+  background: #272727;
+}
+
+.signup-btn:hover {
+  color: #65c178;
+}
+
+.tee-alert-form .privacy-policy{
+  text-align: left;
+  color: #555;
+  margin: 3px 0 18px 0;
+}
+
+.input-block-level{
+  display: flex !important;
+}
+
+.input-block-level input{
+  flex: 4;
+}
+
+.input-block-level button{
+  flex: 1;
+  height: 48px;
+  background: #555;
+  border: 1px solid #555;
+  color: #afafaf;
+  border-radius: 0!important;
+}

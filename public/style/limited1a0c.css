@@ -1,0 +1,39 @@
+
+.clothes-icons {
+  margin-top: 14px;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.clothes-icons ul {
+  border: 1px solid #dedede;
+  padding: 5px;
+}
+
+.clothes-icons li {
+  display: inline-block;
+  border: 1px solid #dedede;
+  border-radius: 100%;
+  padding: 5px;
+  margin: 0 6px;
+}
+
+.clothes-icons li img {
+  width: 35px;
+  opacity: .2;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.clothes-icons li img.active, .clothes-icons li img:hover {
+  opacity: 1;
+}
+.navbar-nav > li > a{
+  color: green;
+  font-weight: bold;
+}
+.navbar-nav > li > a:hover{
+  color: black;
+}
